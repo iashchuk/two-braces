@@ -1,6 +1,27 @@
 .page__header {
   position: relative;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #0f1521;
   border-top: #1aa156 solid 6px;
+  border-bottom: #1aa156 solid 2px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%);
+    border: 125px solid transparent;
+    border-top: 25px solid #0f1521;
+  }
+
+  &::before {
+    position: absolute;
+    content: '';
+    bottom: -11px;
+    height: 10px;
+    width: 100%;
+   background: url("../img/flag.svg");
+  }
 }
