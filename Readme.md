@@ -1,4 +1,4 @@
-# Проект «Project» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Проект «Две скобочки» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * [Vitalii Iashchuk](https://up.htmlacademy.ru/adaptive/14/user/93555).
 
