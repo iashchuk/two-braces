@@ -4,13 +4,14 @@
   background-color: #0f1521;
   border-top: #1aa156 solid 6px;
   border-bottom: #1aa156 solid 2px;
+  z-index: 15;
 
   &::after {
     content: '';
     position: absolute;
     bottom: -150px;
     left: 50%;
-    z-index: 1;
+    z-index: 10;
     transform: translate(-50%);
     border: 125px solid transparent;
     border-top: 25px solid #0f1521;
@@ -19,9 +20,10 @@
   &::before {
     position: absolute;
     content: '';
-    bottom: -11px;
+    bottom: -12px;
     height: 10px;
     width: 100%;
    background: url("../img/flag.svg");
+   z-index: 5;
   }
 }
