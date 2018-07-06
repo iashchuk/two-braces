@@ -81,6 +81,11 @@ a {
     background: url("../img/flag.svg");
     z-index: 5; }
 
+.page__footer {
+  padding-top: 90px;
+  border-top: #1aa156 solid 6px;
+  text-align: center; }
+
 .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,3 +307,108 @@ a {
   .process__button:hover, .process__button:focus {
     color: #ffffff;
     background-color: #1aa156; }
+
+.footer-logo {
+  padding-bottom: 90px; }
+
+.footer-logo__tagline {
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 20px; }
+
+.twit {
+  position: relative;
+  padding: 80px 0;
+  background-color: #1aa156; }
+  .twit::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    height: 10px;
+    width: 100%;
+    background: url("../img/flag.svg");
+    z-index: 5; }
+
+.twit-text {
+  position: relative;
+  margin: 0 auto;
+  width: 365px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: left; }
+  .twit-text::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -50px;
+    height: 50px;
+    width: 50px;
+    background: url("../img/twitter-dark.png") no-repeat; }
+
+.social {
+  padding: 50px 0;
+  background: #ffffff; }
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 250px;
+  margin: 0 auto;
+  list-style: none; }
+
+.social__item {
+  background-color: #1aa156; }
+
+.social__link {
+  display: block;
+  width: 46px;
+  height: 48px; }
+  .social__link:hover, .social__link:focus {
+    background-color: #31ca76; }
+  .social__link:active {
+    background-color: #31ca76;
+    opacity: 0.3; }
+
+.social__link--fb {
+  background-color: #0f1521;
+  background-image: url("../img/facebook.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  .social__link--fb:hover, .social__link--fb:focus {
+    background-color: #1f3a75; }
+  .social__link--fb:active {
+    background-color: #1f3a75;
+    opacity: 0.3; }
+
+.social__link--twitter {
+  background-image: url("../img/twitter.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+.social__link--vimeo {
+  background-image: url("../img/vimeo.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+.social__link--picasa {
+  background-image: url("../img/picasa.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+.copyright {
+  padding-bottom: 30px;
+  background: #ffffff; }
+
+.copyright__text,
+.copyright__author {
+  margin: 0;
+  color: #1aa156;
+  font-size: 14px;
+  line-height: 20px; }

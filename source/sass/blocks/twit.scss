@@ -1,0 +1,38 @@
+.twit {
+  position: relative;
+  padding: 80px 0;
+  background-color: #1aa156;
+
+    &::before {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: -10px;
+      height: 10px;
+      width: 100%;
+      background: url("../img/flag.svg");
+      z-index: 5;
+    }
+}
+
+.twit-text {
+  position: relative;
+  margin: 0 auto;
+  width: 365px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: left;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: -50px;
+      height: 50px;
+      width: 50px;
+      background: url("../img/twitter-dark.png") no-repeat;
+    }
+}
