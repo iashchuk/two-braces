@@ -150,7 +150,6 @@ a {
 
 .slide__toogle--left {
   position: absolute;
-  content: "";
   top: 230px;
   left: 30px;
   width: 49px;
@@ -165,7 +164,6 @@ a {
 
 .slide__toogle--right {
   position: absolute;
-  content: "";
   top: 230px;
   right: 30px;
   width: 49px;
@@ -421,7 +419,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-bottom: 50px; }
 
 .create-review__link {
   position: relative;
@@ -467,3 +466,81 @@ a {
   .create-review__button:hover, .create-review__button:active {
     background-color: #0f1521;
     color: #1aa156; }
+
+.client-review__text {
+  position: relative;
+  margin: 0;
+  padding: 0 270px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background-color: #1aa156;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center; }
+  .client-review__text::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -9px;
+    height: 10px;
+    width: 100%;
+    background: url("../img/flag.svg");
+    z-index: 5; }
+
+.client-review__slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+  background-color: #0f1521; }
+
+.client-review__toogle--left {
+  margin-top: 35px;
+  margin-left: 20px;
+  width: 49px;
+  height: 49px;
+  border: none;
+  background: url("../img/arrow-left.png");
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6); }
+  .client-review__toogle--left:hover, .client-review__toogle--left:focus {
+    cursor: pointer;
+    background: url("../img/arrow-right.png");
+    -webkit-transform: rotate(180deg) scale(0.6);
+            transform: rotate(180deg) scale(0.6); }
+
+.client-review__toogle--right {
+  margin-top: 35px;
+  margin-right: 20px;
+  width: 49px;
+  height: 49px;
+  border: none;
+  background: url("../img/arrow-left.png");
+  -webkit-transform: rotate(180deg) scale(0.6);
+          transform: rotate(180deg) scale(0.6); }
+  .client-review__toogle--right:hover, .client-review__toogle--right:focus {
+    cursor: pointer;
+    background: url("../img/arrow-right.png");
+    -webkit-transform: rotate(0deg) scale(0.6);
+            transform: rotate(0deg) scale(0.6); }
+
+.client-review__photo {
+  text-align: center;
+  margin-top: -60px;
+  z-index: 20; }
+
+.client-review__name {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px; }
+
+.client-review__prof {
+  color: #1aa156;
+  font-size: 14px;
+  line-height: 18px; }
