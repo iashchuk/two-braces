@@ -228,7 +228,7 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 500px; }
+  padding-bottom: 50px; }
 
 .process__title {
   width: 100%;
@@ -412,3 +412,58 @@ a {
   color: #1aa156;
   font-size: 14px;
   line-height: 20px; }
+
+.review {
+  padding: 50px 0;
+  background-color: #f8f8f8; }
+
+.create-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff; }
+
+.create-review__link {
+  position: relative;
+  width: 400px;
+  padding: 35px 0;
+  padding-right: 40px;
+  padding-left: 170px;
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 30px; }
+  .create-review__link::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #0f1521;
+    background-image: url("../img/create-write.png");
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .create-review__link:hover, .create-review__link:active {
+    color: #0f1521; }
+
+.create-review__tagline {
+  padding: 35px 0;
+  padding-right: 20px;
+  margin: 0;
+  color: #000000;
+  font-size: 18px;
+  line-height: 30px; }
+
+.create-review__button {
+  margin-left: auto;
+  display: block;
+  padding: 35px 0;
+  width: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #1aa156;
+  text-align: center; }
+  .create-review__button:hover, .create-review__button:active {
+    background-color: #0f1521;
+    color: #1aa156; }
