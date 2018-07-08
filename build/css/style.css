@@ -549,3 +549,137 @@ a {
   color: #1aa156;
   font-size: 14px;
   line-height: 18px; }
+
+.create-pizza {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 50px; }
+
+.create-pizza__link {
+  position: relative;
+  width: 400px;
+  padding: 35px 0;
+  padding-right: 40px;
+  padding-left: 170px;
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 30px; }
+  .create-pizza__link::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #0f1521;
+    background-image: url("../img/icon-pizza.png");
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .create-pizza__link:hover, .create-pizza__link:active {
+    color: #0f1521; }
+
+.create-pizza__tagline {
+  padding: 35px 0;
+  padding-right: 20px;
+  margin: 0;
+  color: #000000;
+  font-size: 14px;
+  line-height: 18px; }
+
+.create-pizza__button {
+  margin-left: auto;
+  display: block;
+  padding: 35px 5px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #1aa156;
+  text-align: center; }
+  .create-pizza__button:hover, .create-pizza__button:active {
+    background-color: #0f1521;
+    color: #1aa156; }
+
+.clients {
+  background-color: #f8f8f8;
+  padding-bottom: 100px; }
+
+.clients__title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 40px;
+  color: #1aa156;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.clients__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff; }
+
+.clients__toogle--left {
+  width: 50px;
+  height: 100px;
+  border: none;
+  background-image: url("../img/arrow-left-straight.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #1aa156; }
+  .clients__toogle--left:hover, .clients__toogle--left:focus {
+    cursor: pointer;
+    background-color: #020610; }
+  .clients__toogle--left:active {
+    opacity: 0.7; }
+
+.clients__toogle--right {
+  width: 50px;
+  height: 100px;
+  border: none;
+  background-image: url("../img/arrow-right-straight.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #1aa156; }
+  .clients__toogle--right:hover, .clients__toogle--right:focus {
+    cursor: pointer;
+    background-color: #020610; }
+  .clients__toogle--right:active {
+    opacity: 0.7; }
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 60px;
+  width: 1060px;
+  background-color: #f8f8f8; }
+
+.clients__link:hover, .clients__link:focus {
+  opacity: 0.6; }
+
+.clients__link:active {
+  opacity: 0.3; }
+
+.clients__brand {
+  display: inline-block;
+  vertical-align: middle; }
