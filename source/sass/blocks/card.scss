@@ -1,0 +1,52 @@
+.card__description {
+  width: 590px;
+}
+
+.card__name {
+  width: 360px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.card__text {
+  width: 360px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.card__text--barbecue {
+  width: 330px;
+}
+
+.card__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.card__price {
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.card__link {
+  display: block;
+  width: 78px;
+  background-color: #0f1521;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.card__link--active {
+  background-color: #1aa156;
+}
