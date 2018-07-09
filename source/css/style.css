@@ -86,6 +86,13 @@ a {
   padding-bottom: 30px;
   background-color: #f8f8f8; }
 
+.page__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .page__footer {
   padding-top: 90px;
   border-top: #1aa156 solid 6px;
@@ -425,7 +432,9 @@ a {
   display: -ms-flexbox;
   display: flex;
   background-color: #ffffff;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
 
 .create-review__link {
   position: relative;
@@ -555,7 +564,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   background-color: #ffffff;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
 
 .create-pizza__link {
   position: relative;
@@ -628,7 +640,9 @@ a {
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
 
 .clients__toogle--left {
   width: 50px;
@@ -683,3 +697,39 @@ a {
 .clients__brand {
   display: inline-block;
   vertical-align: middle; }
+
+.menu {
+  width: 270px;
+  text-align: center; }
+
+.menu__title {
+  margin: 0;
+  padding: 21px;
+  padding-bottom: 20px;
+  background-color: #161f2f;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase; }
+
+.menu__list {
+  margin: 0;
+  padding: 45px 0;
+  list-style: none;
+  background-color: #0f1521; }
+
+.menu__item {
+  width: 270px; }
+
+.menu__link {
+  display: block;
+  padding: 9px 15px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 36px;
+  border: 1px solid transparent; }
+  .menu__link:hover[href] {
+    border: 1px solid #1aa156; }
+
+.menu__link--active {
+  background-color: #1aa156; }

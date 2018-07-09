@@ -1,0 +1,45 @@
+.menu {
+  width: 270px;
+  text-align: center;
+}
+
+.menu__title {
+  margin: 0;
+  padding: 21px;
+  padding-bottom: 20px;
+  background-color: #161f2f;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+}
+
+.menu__list {
+  margin: 0;
+  padding: 45px 0;
+  list-style: none;
+  background-color: #0f1521;
+}
+
+
+.menu__item {
+  width: 270px;
+}
+
+.menu__link {
+  display: block;
+  padding: 9px 15px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 36px;
+  border: 1px solid transparent;
+
+  &:hover[href] {
+    border: 1px solid #1aa156;
+  }
+}
+
+.menu__link--active {
+  background-color: #1aa156;
+}
