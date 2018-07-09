@@ -1,5 +1,6 @@
 .create-pizza {
   display: flex;
+  align-items: center;
   background-color: #ffffff;
   margin-bottom: 50px;
   width: 100%;
@@ -17,7 +18,7 @@
   line-height: 30px;
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     height: 100%;
@@ -34,18 +35,18 @@
 }
 
 .create-pizza__tagline {
-  padding: 35px 0;
+  padding: 41px 0;
   padding-right: 20px;
   margin: 0;
   color: #000000;
-font-size: 14px;
-line-height: 18px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .create-pizza__button {
   margin-left: auto;
   display: block;
-  padding: 35px 5px;
+  padding: 32px 5px;
   width: 100px;
   color: #ffffff;
   font-size: 18px;

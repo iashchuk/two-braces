@@ -563,6 +563,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #ffffff;
   margin-bottom: 50px;
   width: 100%;
@@ -580,7 +583,7 @@ a {
   line-height: 30px; }
   .create-pizza__link::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     height: 100%;
@@ -593,7 +596,7 @@ a {
     color: #0f1521; }
 
 .create-pizza__tagline {
-  padding: 35px 0;
+  padding: 41px 0;
   padding-right: 20px;
   margin: 0;
   color: #000000;
@@ -603,7 +606,7 @@ a {
 .create-pizza__button {
   margin-left: auto;
   display: block;
-  padding: 35px 5px;
+  padding: 32px 5px;
   width: 100px;
   color: #ffffff;
   font-size: 18px;
@@ -728,7 +731,7 @@ a {
   font-size: 18px;
   line-height: 36px;
   border: 1px solid transparent; }
-  .menu__link:hover[href] {
+  .menu__link:hover[href], .menu__link:focus {
     border: 1px solid #1aa156; }
 
 .menu__link--active {
@@ -738,13 +741,19 @@ a {
   width: 590px; }
 
 .card__name {
+  margin: 0; }
+
+.card__link {
   width: 360px;
   margin: 0;
   margin-bottom: 10px;
   font-weight: 400;
   color: #1aa156;
   font-size: 18px;
-  line-height: 30px; }
+  line-height: 30px;
+  text-decoration: none; }
+  .card__link:hover, .card__link:focus {
+    color: #0f1521; }
 
 .card__text {
   width: 360px;
@@ -774,7 +783,7 @@ a {
   font-size: 18px;
   line-height: 36px; }
 
-.card__link {
+.card__button {
   display: block;
   width: 78px;
   background-color: #0f1521;
@@ -782,7 +791,7 @@ a {
   font-size: 14px;
   line-height: 36px; }
 
-.card__link--active {
+.card__button--active {
   background-color: #1aa156; }
 
 .pizza {
@@ -799,13 +808,13 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 25px 0;
   padding-left: 20px;
   padding-right: 40px;
   background-color: #f1f1f1;
   border-bottom: 1px solid #ffffff; }
   .pizza__item:last-child {
-    border-bottom: 1px solid transparent; }
+    border-bottom: 1px solid #f1f1f1; }
 
 .pizza__item--title {
   padding: 0;
