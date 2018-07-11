@@ -34,6 +34,10 @@
   background-color: #f8f8f8;
 }
 
+.page__main--tagline {
+  padding-top: 0;
+}
+
 .page__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -43,4 +47,29 @@
   padding-top: 90px;
   border-top: #1aa156 solid 6px;
   text-align: center;
+}
+
+
+.page__tagline {
+  position: relative;
+  margin: 0;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  color: #ffffff;
+   font-size: 30px;
+  line-height: 48px;
+background-color: #aeaeae;
+text-align: center;
+
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: -8px;
+      height: 10px;
+      width: 100%;
+      background: url("../img/curly.svg");
+      z-index: 5;
+    }
 }
