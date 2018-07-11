@@ -617,6 +617,64 @@ a {
     background-color: #0f1521;
     color: #1aa156; }
 
+.create-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
+
+.create-map__link {
+  position: relative;
+  width: 400px;
+  padding: 35px 0;
+  padding-right: 40px;
+  padding-left: 170px;
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 30px; }
+  .create-map__link::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #0f1521;
+    background-image: url("../img/icon-map.png");
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .create-map__link:hover, .create-map__link:active {
+    color: #0f1521; }
+
+.create-map__tagline {
+  padding: 41px 0;
+  padding-right: 20px;
+  margin: 0;
+  color: #000000;
+  font-size: 14px;
+  line-height: 18px; }
+
+.create-map__button {
+  margin-left: auto;
+  display: block;
+  padding: 41px 5px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #1aa156;
+  text-align: center; }
+  .create-map__button:hover, .create-map__button:active {
+    background-color: #0f1521;
+    color: #1aa156; }
+
 .clients {
   background-color: #f8f8f8;
   padding-bottom: 100px; }
