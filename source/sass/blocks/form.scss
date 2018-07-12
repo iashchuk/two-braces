@@ -1,5 +1,68 @@
-.form__list {
+.contact-form {
+  padding: 45px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form__area {
+  text-align: right;
+}
+.contact-form__title {
+  margin: 0;
+  margin-bottom: 35px;
+  color: #1aa156;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.contact-form__list {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.contact-form__button {
+  width: 83px;
+  margin-top: 20px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  background-color: #0f1521;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.contact-form__input {
+  width: 833px;
+  height: 53px;
+  margin-bottom: 20px;
+  padding-left: 55px;
+  padding-right: 10px;
+  border: 1px solid #e5e5e5;
+  &::placeholder {
+    color: #bebebe;
+    font-size: 12px;
+    line-height: 53px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+  }
+}
+
+.contact-form__text {
+  padding-top: 15px;
+  padding-left: 55px;
+  padding-right: 10px;
+  width: 833px;
+  height: 153px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  &::placeholder {
+    color: #bebebe;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+  }
 }
