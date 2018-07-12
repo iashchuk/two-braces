@@ -43,12 +43,27 @@
   padding-left: 55px;
   padding-right: 10px;
   border: 1px solid #e5e5e5;
+  background-repeat: no-repeat;
+  background-position: 15px 18px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   &::placeholder {
     color: #bebebe;
     font-size: 12px;
     line-height: 53px;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
   }
+}
+
+.contact-form__input--name {
+  background-image: url("../img/user.png");
+}
+
+.contact-form__input--email {
+  background-image: url("../img/mail.png");
+}
+
+.contact-form__input--phone {
+  background-image: url("../img/phone.png");
 }
 
 .contact-form__text {
@@ -59,6 +74,10 @@
   height: 153px;
   border: 1px solid #e5e5e5;
   background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 15px 18px;
+  background-image: url("../img/comment.png");
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   &::placeholder {
     color: #bebebe;
     font-size: 12px;
