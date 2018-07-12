@@ -28,21 +28,23 @@
   }
 }
 
-.page__main--light {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  background-color: #f8f8f8;
-}
-
-.page__main--tagline {
-  padding-top: 0;
-  padding-bottom: 100px;
-}
 
 .page__wrapper {
   display: flex;
   flex-wrap: wrap;
 }
+
+.page__wrapper--light {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #f8f8f8;
+}
+
+.page__wrapper--tagline {
+  background-color: #f8f8f8;
+  padding-bottom: 100px;
+}
+
 
 .page__footer {
   padding-top: 90px;

@@ -12,9 +12,7 @@
   src: url("../fonts/ptsansnarrowbold.ttf") format("ttf");
 }
 
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -61,4 +59,9 @@ a {
   width: 1200px;
   margin: 0 auto;
 
+}
+
+.container--flex {
+ display: flex;
+ flex-wrap: wrap;
 }

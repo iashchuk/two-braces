@@ -10,9 +10,7 @@
   font-style: normal;
   src: url("../fonts/ptsansnarrowbold.ttf") format("ttf"); }
 
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -55,6 +53,13 @@ a {
   width: 1200px;
   margin: 0 auto; }
 
+.container--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .page__header {
   position: relative;
   padding: 20px 0;
@@ -81,21 +86,21 @@ a {
     background: url("../img/flag.svg");
     z-index: 5; }
 
-.page__main--light {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  background-color: #f8f8f8; }
-
-.page__main--tagline {
-  padding-top: 0;
-  padding-bottom: 100px; }
-
 .page__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+
+.page__wrapper--light {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #f8f8f8; }
+
+.page__wrapper--tagline {
+  background-color: #f8f8f8;
+  padding-bottom: 100px; }
 
 .page__footer {
   padding-top: 90px;
@@ -975,31 +980,34 @@ a {
   width: 833px;
   height: 53px;
   margin-bottom: 20px;
+  padding: 15px 0;
   padding-left: 55px;
   padding-right: 10px;
   border: 1px solid #e5e5e5;
   background-repeat: no-repeat;
   background-position: 15px 18px;
-  font-family: "PT Sans Narrow", "Arial", sans-serif; }
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 18px; }
   .contact-form__input::-webkit-input-placeholder {
     color: #bebebe;
     font-size: 12px;
-    line-height: 53px;
+    line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif; }
   .contact-form__input:-ms-input-placeholder {
     color: #bebebe;
     font-size: 12px;
-    line-height: 53px;
+    line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif; }
   .contact-form__input::-ms-input-placeholder {
     color: #bebebe;
     font-size: 12px;
-    line-height: 53px;
+    line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif; }
   .contact-form__input::placeholder {
     color: #bebebe;
     font-size: 12px;
-    line-height: 53px;
+    line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif; }
 
 .contact-form__input--name {
@@ -1043,3 +1051,60 @@ a {
     font-size: 12px;
     line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif; }
+
+.office {
+  width: 290px;
+  margin-bottom: 27px;
+  padding: 45px 20px 25px 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
+
+.office__title {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom: 1px solid #e5e5e5; }
+
+.office__address {
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px; }
+
+.connection {
+  width: 290px;
+  padding: 45px 20px 25px 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
+
+.connection__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom: 1px solid #e5e5e5; }
+
+.connection__tags {
+  margin: 0;
+  margin: 17px 0;
+  width: 125px;
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px; }
+
+.connection__item {
+  margin: 0;
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px; }
+
+.connection__name {
+  color: #1aa156; }
+
+.connection__mail {
+  color: #8e710d; }
