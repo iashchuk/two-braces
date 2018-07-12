@@ -935,10 +935,12 @@ a {
   background-size: cover; }
 
 .contact-form {
-  padding: 45px 20px;
+  width: 880px;
+  padding: 45px 25px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 30px; }
 
 .contact-form__area {
   text-align: right; }
