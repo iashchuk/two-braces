@@ -932,3 +932,8 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+
+.form__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
