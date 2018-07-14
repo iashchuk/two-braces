@@ -9,23 +9,6 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- Pixel Glass -->
-  <!-- <style>
-        HTML {
-            background-repeat: no-repeat;
-            background-position: 50% 0;
-            /* По умолчанию мобильный макет */
-            background-image: url("img/index.png");
-        }
-
-        BODY {
-            opacity: .5;
-        }
-
-    </style>
-    <link rel="stylesheet" href="../node_modules/pixel-glass/styles.css">
-    <script src="../node_modules/pixel-glass/script.js"></script> -->
-  <!-- // Pixel Glass -->
 </head>
 
 <body>
@@ -42,7 +25,7 @@
             <a href="index.html" class="navigation__link">Главная</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Пиццы</a>
+            <a class="navigation__link navigation__link--active">Пиццы</a>
           </li>
           <li class="navigation__item">
             <a href="#" class="navigation__link">Акции</a>
@@ -251,8 +234,8 @@
   </main>
 
   <footer class="page__footer">
-    <div class="footer__logo footer-logo">
-      <a class="footer-logo__link">
+    <div class="footer__logo logo logo--footer">
+      <a class="logo__link" href="index.html">
         <img class="footer-logo__image" src="img/logo.png" alt="Две скобочки" width="324" height="49">
       </a>
       <p class="footer-logo__tagline">пицца без регистрации и смс</p>

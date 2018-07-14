@@ -29,9 +29,13 @@
     background-position: center center;
   }
   &:hover,
-  &:active {
+  &:focus {
     color: #0f1521;
   }
+
+   &:active {
+     opacity: 0.7;
+   }
 }
 
 .create-map__tagline {
@@ -54,8 +58,12 @@
   background-color: #1aa156;
   text-align: center;
   &:hover,
-  &:active {
+  &:focus {
     background-color: #0f1521;
     color: #1aa156;
+  }
+
+  &:active {
+    color: #ffffff;
   }
 }

@@ -4,3 +4,29 @@
   z-index: 1;
   transform: translate(-50%);
 }
+
+.logo--footer {
+  position: static;
+  left: auto;
+  transform: none;
+  padding-bottom: 90px;
+}
+
+.logo__tagline {
+  color: #1aa156;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+
+.logo__link {
+  &:hover[href],
+  &:focus[href] {
+    opacity: 0.6;
+  }
+
+  &:active[href] {
+    opacity: 0.3;
+  }
+}

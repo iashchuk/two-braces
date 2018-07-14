@@ -34,7 +34,7 @@
   }
 
   &:hover,
-  &:active {
+  &:focus {
     color: #0f1521;
   }
 
@@ -69,7 +69,7 @@
   background-color: #1aa156;
 
   &:hover,
-  &:active {
+  &:focus{
     color: #1aa156;
 
     background-color: #0f1521;

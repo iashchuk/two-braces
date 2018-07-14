@@ -36,6 +36,17 @@
   line-height: 20px;
   border: none;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+  cursor: pointer;
+
+   &:hover,
+   &:focus {
+     background-color: #1aa156;
+     color: #ffffff;
+   }
+
+   &:active {
+     color: #0f1521;
+   }
 }
 
 .contact-form__input {
@@ -56,6 +67,13 @@
     font-size: 12px;
     line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    opacity: 0.6;
+    border: 1px solid #1aa156;
   }
 }
 
@@ -88,5 +106,12 @@
     font-size: 12px;
     line-height: 18px;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    opacity: 0.6;
+    border: 1px solid #1aa156;
   }
 }
