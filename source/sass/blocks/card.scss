@@ -56,6 +56,11 @@
   color: #ffffff;
   font-size: 14px;
   line-height: 36px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+  }
 }
 
 .card__button--active {
