@@ -2,6 +2,7 @@
 .connection {
   width: 290px;
   padding: 45px 20px 25px 20px;
+
   background-color: #ffffff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
@@ -10,26 +11,29 @@
   margin: 0;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  color: #1aa156;
+
   font-size: 18px;
   line-height: 20px;
+  color: #1aa156;
+
   border-bottom: 1px solid #e5e5e5;
 }
 
 .connection__tags {
-  margin: 0;
-  margin: 17px 0;
   width: 125px;
-  color: #000000;
+  margin: 17px 0;
+
   font-size: 12px;
   line-height: 18px;
+  color: #000000;
 }
 
 .connection__item {
   margin: 0;
-  color: #000000;
+
   font-size: 12px;
   line-height: 18px;
+  color: #000000;
 }
 
 .connection__name {

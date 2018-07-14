@@ -2,23 +2,24 @@
   position: absolute;
   left: 50%;
   z-index: 1;
+
   transform: translate(-50%);
 }
 
 .logo--footer {
   position: static;
   left: auto;
-  transform: none;
+
   padding-bottom: 90px;
+
+  transform: none;
 }
 
 .logo__tagline {
-  color: #1aa156;
   font-size: 18px;
   line-height: 20px;
+  color: #1aa156;
 }
-
-
 
 .logo__link {
   &:hover[href],

@@ -7,78 +7,86 @@
 .process__title {
   width: 100%;
   margin-bottom: 70px;
-  text-align: center;
-  color: #ffffff;
+
   font-weight: 400;
   font-size: 30px;
   line-height: 48px;
-
+  text-align: center;
+  color: #ffffff;
 }
 
 .process__item {
   position: relative;
+
   width: 33.33%;
   padding: 0 40px;
   padding-top: 150px;
-  color: #ffffff;
+
   text-align: center;
-  border-right: 1px solid #151d2e;;
+  color: #ffffff;
+
+  border-right: 1px solid #151d2e;
 }
 
 .process__item--pizza {
   &::before {
+    content: "";
     position: absolute;
-    content: '';
     top: 0;
     left: 50%;
-    transform: translate(-50%);
-    height: 119px;
+    z-index: 5;
+
     width: 119px;
-   background: url("../img/shopping-basket.png") no-repeat;
-   z-index: 5;
+    height: 119px;
+
+    background: url("../img/shopping-basket.png") no-repeat;
+    transform: translate(-50%);
   }
 }
 
 .process__item--payment {
   &::before {
+    content: "";
     position: absolute;
-    content: '';
     top: 0;
     left: 50%;
-    transform: translate(-50%);
-    height: 119px;
-    width: 119px;
-    background: url("../img/bills-stack.png") no-repeat;
     z-index: 5;
+
+    width: 119px;
+    height: 119px;
+
+    background: url("../img/bills-stack.png") no-repeat;
+    transform: translate(-50%);
   }
 }
 
 .process__item--delivery {
   &::before {
+    content: "";
     position: absolute;
-    content: '';
     top: 0;
     left: 50%;
-    transform: translate(-50%);
-    height: 119px;
-    width: 119px;
-    background: url("../img/truck.png") no-repeat;
     z-index: 5;
+
+    width: 119px;
+    height: 119px;
+
+    background: url("../img/truck.png") no-repeat;
+    transform: translate(-50%);
   }
 }
 
-
-
 .process__tagline {
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 48px;
 }
 
 .process__text {
   margin-bottom: 35px;
-  font-size: 12px;
+
   font-weight: 400;
+  font-size: 12px;
   line-height: 18px;
 }
 
@@ -86,20 +94,23 @@
   display: block;
   width: 135px;
   margin: 0 auto;
-  text-align: center;
+
   font-size: 18px;
   line-height: 50px;
+  text-align: center;
   color: #ffffff;
+
   border: 1px solid #1aa156;
 
   &:hover,
   &:focus {
     color: #ffffff;
+
     background-color: #1aa156;
   }
 
   &:active {
-    opacity: 0.7;
     border: 1px solid #ffffff;
+    opacity: 0.7;
   }
 }

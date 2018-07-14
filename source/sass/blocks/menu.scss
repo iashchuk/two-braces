@@ -1,5 +1,6 @@
 .menu {
   width: 270px;
+
   text-align: center;
 }
 
@@ -7,18 +8,21 @@
   margin: 0;
   padding: 21px;
   padding-bottom: 20px;
-  background-color: #161f2f;
-  color: #ffffff;
+
   font-size: 18px;
   line-height: 18px;
+  color: #ffffff;
   text-transform: uppercase;
 
+  background-color: #161f2f;
 }
 
 .menu__list {
   margin: 0;
   padding: 45px 0;
+
   list-style: none;
+
   background-color: #0f1521;
 }
 
@@ -30,9 +34,11 @@
 .menu__link {
   display: block;
   padding: 9px 15px;
-  color: #ffffff;
+
   font-size: 18px;
   line-height: 36px;
+  color: #ffffff;
+
   border: 1px solid transparent;
 
   &:hover[href],

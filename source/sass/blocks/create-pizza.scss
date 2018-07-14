@@ -1,33 +1,40 @@
 .create-pizza {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
-  margin-bottom: 50px;
   width: 100%;
+  margin-bottom: 50px;
+
+  background-color: #ffffff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .create-pizza__link {
   position: relative;
+
   width: 400px;
   padding: 35px 0;
   padding-right: 40px;
   padding-left: 170px;
-  color: #1aa156;
+
   font-size: 18px;
   line-height: 30px;
+  color: #1aa156;
+
   &::before {
-    position: absolute;
     content: "";
+    position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+
     width: 100px;
+    height: 100%;
+
     background-color: #0f1521;
     background-image: url("../img/icon-pizza.png");
     background-repeat: no-repeat;
     background-position: center center;
   }
+
   &:hover,
   &:focus {
     color: #0f1521;
@@ -39,31 +46,36 @@
 }
 
 .create-pizza__tagline {
+  margin: 0;
   padding: 41px 0;
   padding-right: 20px;
-  margin: 0;
-  color: #000000;
+
   font-size: 14px;
   line-height: 18px;
+  color: #000000;
 }
 
 .create-pizza__button {
-  margin-left: auto;
   display: block;
-  padding: 32px 5px;
   width: 100px;
-  color: #ffffff;
+  margin-left: auto;
+  padding: 32px 5px;
+
   font-size: 18px;
   line-height: 18px;
-  background-color: #1aa156;
   text-align: center;
+  color: #ffffff;
+
+  background-color: #1aa156;
+
   &:hover,
   &:focus {
-    background-color: #0f1521;
     color: #1aa156;
+
+    background-color: #0f1521;
   }
 
-   &:active {
-     color: #ffffff;
-   }
+  &:active {
+    color: #ffffff;
+  }
 }

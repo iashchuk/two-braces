@@ -1,91 +1,104 @@
 .client-review__text {
   position: relative;
+
   margin: 0;
   padding: 0 270px;
   padding-top: 50px;
   padding-bottom: 90px;
-  background-color: #1aa156;
-  color: #ffffff;
+
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+  color: #ffffff;
 
-    &::after {
-      position: absolute;
-      content: '';
-      left: 0;
-      bottom: -9px;
-      height: 10px;
-      width: 100%;
-      background: url("../img/flag.svg");
-      z-index: 5;
-    }
+  background-color: #1aa156;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    z-index: 5;
+
+    width: 100%;
+    height: 10px;
+
+    background: url("../img/flag.svg");
+  }
 }
 
 .client-review__slider {
   position: relative;
+
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
+
   background-color: #0f1521;
 }
 
 .client-review__toogle--left {
-  margin-top: 35px;
-  margin-left: 20px;
   width: 49px;
   height: 49px;
-  border: none;
+  margin-top: 35px;
+  margin-left: 20px;
+
   background: url("../img/arrow-left.png");
+  border: none;
   transform: scale(0.6);
 
   &:hover,
   &:focus {
-    cursor: pointer;
     background: url("../img/arrow-right.png");
     transform: rotate(180deg) scale(0.6);
+    cursor: pointer;
   }
 
-   &:active {
-     opacity: 0.7;
-   }
+  &:active {
+    opacity: 0.7;
+  }
 }
 
 .client-review__toogle--right {
-  margin-top: 35px;
-  margin-right: 20px;
   width: 49px;
   height: 49px;
-  border: none;
+  margin-top: 35px;
+  margin-right: 20px;
+
   background: url("../img/arrow-left.png");
+  border: none;
   transform: rotate(180deg) scale(0.6);
+
   &:hover,
   &:focus {
-    cursor: pointer;
     background: url("../img/arrow-right.png");
     transform: rotate(0deg) scale(0.6);
+    cursor: pointer;
   }
 
-   &:active {
-     opacity: 0.7;
-   }
+  &:active {
+    opacity: 0.7;
+  }
 }
 
 .client-review__photo {
-  text-align: center;
-  margin-top: -60px;
   z-index: 20;
+
+  margin-top: -60px;
+
+  text-align: center;
 }
 
 .client-review__name {
   margin: 0;
-  color: #ffffff;
+
   font-size: 14px;
   line-height: 18px;
+  color: #ffffff;
 }
 
 .client-review__prof {
-  color: #1aa156;
   font-size: 14px;
   line-height: 18px;
+  color: #1aa156;
 }

@@ -1,5 +1,6 @@
 .social {
   padding: 50px 0;
+
   background: #ffffff;
 }
 
@@ -8,6 +9,7 @@
   flex-wrap: wrap;
   width: 250px;
   margin: 0 auto;
+
   list-style: none;
 }
 
@@ -19,10 +21,12 @@
   display: block;
   width: 46px;
   height: 48px;
+
   &:hover,
   &:focus {
     background-color: #31ca76;
   }
+
   &:active {
     background-color: #31ca76;
     opacity: 0.3;
@@ -35,15 +39,15 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
-    &:hover,
-    &:focus {
-      background-color: #1f3a75;
-    }
+  &:hover,
+  &:focus {
+    background-color: #1f3a75;
+  }
 
-    &:active {
-       background-color: #1f3a75;
-      opacity: 0.3;
-    }
+  &:active {
+    background-color: #1f3a75;
+    opacity: 0.3;
+  }
 }
 
 .social__link--twitter {
