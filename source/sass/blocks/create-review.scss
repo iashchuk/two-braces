@@ -1,27 +1,32 @@
 .create-review {
   display: flex;
-  background-color: #ffffff;
   margin-bottom: 50px;
+
+  background-color: #ffffff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .create-review__link {
   position: relative;
+
   width: 400px;
   padding: 35px 0;
   padding-right: 40px;
   padding-left: 170px;
-  color: #1aa156;
+
   font-size: 18px;
   line-height: 30px;
+  color: #1aa156;
 
   &::before {
+    content: "";
     position: absolute;
-    content: '';
     top: 0;
     left: 0;
-    height: 100%;
+
     width: 100px;
+    height: 100%;
+
     background-color: #0f1521;
     background-image: url("../img/create-write.png");
     background-repeat: no-repeat;
@@ -36,30 +41,37 @@
 
 
 .create-review__tagline {
-    padding: 35px 0;
-    padding-right: 20px;
   margin: 0;
-  color: #000000;
+  padding: 35px 0;
+  padding-right: 20px;
+
   font-size: 18px;
   line-height: 30px;
-
+  color: #000000;
 }
 
 
 .create-review__button {
-  margin-left: auto;
   display: block;
-    padding: 35px 0;
   width: 100px;
-  color: #ffffff;
+  margin-left: auto;
+  padding: 35px 0;
+
   font-size: 18px;
   line-height: 30px;
-  background-color: #1aa156;
   text-align: center;
+  color: #ffffff;
+
+  background-color: #1aa156;
 
   &:hover,
   &:active {
-    background-color: #0f1521;
     color: #1aa156;
+
+    background-color: #0f1521;
+  }
+
+  &:active {
+    color: #ffffff;
   }
 }

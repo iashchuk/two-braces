@@ -45,6 +45,10 @@
     background: url("../img/arrow-right.png");
     transform: rotate(180deg) scale(0.6);
   }
+
+   &:active {
+     opacity: 0.7;
+   }
 }
 
 .client-review__toogle--right {
@@ -61,6 +65,10 @@
     background: url("../img/arrow-right.png");
     transform: rotate(0deg) scale(0.6);
   }
+
+   &:active {
+     opacity: 0.7;
+   }
 }
 
 .client-review__photo {
